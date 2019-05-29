@@ -3,28 +3,29 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[brazilian]{babel}
-\usepackage{mathptmx} % times new roman
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{booktabs}			% para tabelas
+%\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage{mathptmx}           % times new roman
 \usepackage{setspace}
+\usepackage[alf]{abntex2cite}
+
 
 \onehalfspacing % espaçamento de 1.5
-\setlrmarginsandblock{3cm}{3cm}{*}
-\setulmarginsandblock{3cm}{3cm}{*}
-\checkandfixthelayout
+%\setlrmarginsandblock{3cm}{3cm}{*}
+%\setulmarginsandblock{3cm}{3cm}{*}
+%\checkandfixthelayout
 
 %\usepackage{hyphenat}
 %\hyphenation{mate-mática recu-perar}
 
 \begin{document}
 
-\title{Aqui vai o título}
-\author{Diego}
+\title{Título}
+\author{Fulano}
 
 \maketitle
 \tableofcontents
-
-% \begin{abstract}
-% Aqui vai o resumo.
-% \end{abstract}
 
 \section{Introdução}
 Aqui vai a introdução.
@@ -36,4 +37,5 @@ E mais uma subseção.
 \section{Conclusion}
 Write your conclusion here.
 
+\bibliography{referencias}
 \end{document}
